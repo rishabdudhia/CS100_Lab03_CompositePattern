@@ -2,7 +2,7 @@
 #define __RAND_HPP__
 
 #include "iostream"
-#include "header/base.hpp"
+#include "base.hpp"
 #include <sstream>
 #include <iomanip>
 #include <cstdlib>
