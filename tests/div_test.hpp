@@ -26,7 +26,7 @@ TEST(DivTest, DivOnePositiveOperandAndDivision) {
    PosDivisionTwentyoneBySevenOpMock* var2 = new PosDivisionTwentyoneBySevenOpMock();
     Div* test = new Div(var1, var2);
     EXPECT_EQ(test->evaluate(), 2.5);
-    EXPECT_EQ(test->stringify(), "((7-10)/((-2)**(2)))");
+    EXPECT_EQ(test->stringify(), "(7.5/(21/7))");
 }
 
 TEST(DivTest, NegDivision) {
@@ -42,7 +42,7 @@ TEST(DivTest, PowDivNegSub) {
     NegSubtraction* var2 = new NegSubtraction();
     Div* test = new Div(var1, var2);
     EXPECT_EQ(test->evaluate(), 0.5714);
-    EXPECT_EQ(test->stringify(), "((-2)**(2))/(-21/3))");
+    EXPECT_EQ(test->stringify(), "((7-10)/((-2)**(2)))");
 }
 
 
