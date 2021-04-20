@@ -1,7 +1,13 @@
 #include <iostream>
 
-#include "base.hpp"
-
+#include "../header/base.hpp"
+#include "../header/add.hpp"
+#include "../header/pow.hpp"
+#include "../header/op.hpp"
+#include "../header/sub.hpp"
+#include "../header/mult.hpp"
+#include "../header/div.hpp"
+#include "../header/rand.hpp"
 int main() {
     // This is a very basic main, and being able to correctly execute this main
     // does not constitute a completed lab. Make sure you write unit tests for
