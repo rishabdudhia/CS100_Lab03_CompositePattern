@@ -6,7 +6,7 @@
 #include <string>
 #include <iomanip>
 
-using namespace std;
+ using namespace std;
 
 class Mult : public Base {
     public:
