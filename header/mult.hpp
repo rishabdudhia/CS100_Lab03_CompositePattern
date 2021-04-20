@@ -10,7 +10,7 @@
 
  class Mult : public Base {
     public:
-        Mult(Base* lhs, Base* rhs) : Base(), left(lhs), right(rhs) { }
+        Mult(Base* lhs, Base* rhs) : left(lhs), right(rhs) { }
         virtual double evaluate() { 
 		double lhse = left->evaluate();
 		double rhse = right->evaluate();
