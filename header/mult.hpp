@@ -17,8 +17,8 @@
 	return (rhse*lhse); }
 
         virtual string stringify() { 
-		string rhss = left->stringify();
-		string lhss = right->stringify();
+		string rhss = right->stringify();
+		string lhss = left->stringify();
 
 	ostringstream ss;
         ss << setprecision(8) << noshowpoint << '(' << lhss << '*' << noshowpoint << rhss << ')';
