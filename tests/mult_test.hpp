@@ -15,7 +15,7 @@ TEST(MultTest, MultTwoPositiveOperands) {
 
 TEST(MultTest, MultPositiveNegativeOperands) {
     SevenOpMock* var1 = new SevenOpMock();
-    NegFiveOpMock* var2 new NegFiveOpMock();
+    NegFiveOpMock* var2 = new NegFiveOpMock();
     Mult* test = new Mult(var1, var2);
     EXPECT_EQ(test->evaluate(), -37.5);
     EXPECT_EQ(test->stringify(), "(7.5*-5)");
