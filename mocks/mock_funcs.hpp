@@ -14,6 +14,14 @@ class SevenOpMock: public Base {
         virtual string stringify() { return "7.5"; }
 };
 
+class SevenF: public Base {
+    public:
+        SevenF() { }
+
+        virtual double evaluate() { return 7; }
+        virtual string stringify() { return "7"; }
+};
+
 class NegFiveOpMock: public Base {
     public:
        NegFiveOpMock() { }

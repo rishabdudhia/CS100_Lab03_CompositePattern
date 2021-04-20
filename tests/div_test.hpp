@@ -3,7 +3,7 @@
 
  #include "gtest/gtest.h"
  #include "../mocks/mock_funcs.hpp"
-#include "../header/mult.hpp"
+#include "../header/div.hpp"
 
 TEST(DivTest, DivTwoPositiveOperands) {
     SevenOpMock* var1;
@@ -30,7 +30,7 @@ TEST(DivTest, DivOnePositiveOperandAndDivision) {
 }
 
 TEST(DivTest, NegDivision) {
-    double var2 = 7.0;
+    SevenF* var2;
     NegDivisionTwentyoneByThreeOpMock* var1;
     Div* test = new Div(var1, var2);
     EXPECT_EQ(test->evaluate(), -1);
