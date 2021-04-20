@@ -110,7 +110,7 @@ class Negpowtwo: public Base {
 
         virtual double evaluate() { return (4); }
         virtual string stringify() { return "((-2)**(2))"; }
-};
+ };
  class Pospowfour: public Base {
     public:
        Pospowfour() { }

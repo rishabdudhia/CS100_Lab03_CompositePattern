@@ -8,7 +8,7 @@
 
  using namespace std;
 
-class Mult : public Base {
+ class Mult : public Base {
     public:
         Mult(Base* lhs, Base* rhs) : Base(), left(lhs), right(rhs) { }
         virtual double evaluate() { 
